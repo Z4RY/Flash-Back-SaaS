@@ -1,0 +1,37 @@
+{
+  "name": "slick",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^5.3.1",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@google/generative-ai": "^0.22.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "@stripe/stripe-js": "^4.2.0",
+    "bootstrap": "^5.3.3",
+    "docx": "^8.5.0",
+    "firebase": "^10.12.5",
+    "flashcard-saas": "file:",
+    "mammoth": "^1.8.0",
+    "next": "14.2.5",
+    "openai": "^4.55.6",
+    "pdfjs-dist": "^4.5.136",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-dropzone": "^14.2.3",
+    "stripe": "^16.7.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.7"
+  }
+}
