@@ -37,7 +37,7 @@ export async function POST(req) {
     responseText = responseText.replace(/```json|```/g, "").trim();
     const flashcards = JSON.parse(responseText);
 
-    return NextResponse.json(flashcards.flashcards);
+    return NextResponse.json({ flashcards: flashcards.flashcards });
   } catch (error) {
     console.error("Error generating flashcards:", error);
     return NextResponse.json({ error: "Failed to generate flashcards" }, { status: 500 });
